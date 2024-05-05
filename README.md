@@ -1,12 +1,11 @@
 # Tiny Renderer Project
+the original project repo: https://github.com/ssloy/tinyrenderer
 
 ## Lesson 0: Basic Setup
 - **Objective**: Implement functions for drawing line segments and triangles manually.
 
 ## Lesson 1: Wire Mesh Rendering
 Draw the wire mesh of a three-dimensional model using the Bresenham's Line Drawing Algorithm.
-
-### Bresenham's Line Drawing Algorithm
 
 #### Attempt 1
 - **Method**: Iterate along the line segment, activating pixels as traversed.
@@ -40,6 +39,7 @@ Draw the wire mesh of a three-dimensional model using the Bresenham's Line Drawi
 - **Advantage**: Enhances runtime efficiency by eliminating the need for the processor to repeatedly evaluate conditional decisions.
 
 ### Reference Resources
+https://www.youtube.com/watch?v=RGB-wlatStc
 - **Bresenham's Line Drawing Algorithm**: Essential for defining lines as a collection of pixels.
 - **Rasterization**: The conversion of a vector into a raster format.
 - **Sampling Strategy**: Sample more on the axis with higher value density.
